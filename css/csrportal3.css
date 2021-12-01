@@ -21,7 +21,7 @@
    -moz-border-radius:  3px;
 }
 
-.warning h2 { 
+.warning h2 {
   background-color: inherit;
   border-radius: 0px;
   color: #0b0c0c;
@@ -32,9 +32,9 @@
 /* form elements */
 
 .topnavmenu ul { list-style-type: none; text-align: right;}
-.topnavmenu ul li {display: inline-block; padding: 0 5px; 
+.topnavmenu ul li {display: inline-block; padding: 0 5px;
 /* Ie7 doesn't like inline-block */
-* display: inline; 
+* display: inline;
 * zoom: 1;
 /* end of IE7 hack */
 }
@@ -44,7 +44,7 @@
 .search-results-paging-menu ul li {display: inline-block; padding: 0 6px;
 
 /* Ie7 doesn't like inline-block */
-* display: inline; 
+* display: inline;
 * zoom: 1;
 /* end of IE7 hack */
 }
@@ -56,7 +56,7 @@
 
 .clearBoth { clear: both; }
 
-.lolight { 
+.lolight {
    padding: 0.3em 0 0.3em 1em;
    font-size: 0.8em;
    color: #666;
@@ -96,7 +96,7 @@ ul.sidebar_menu li a:active, ul.sidebar_menu li a:hover, ul.sidebar_menu li a.cu
 
 
 /* SEARCH FORM */
-div#jobsearch_extra_form { 
+div#jobsearch_extra_form {
    margin-top: 1em;
    padding-top: 1em;
    border-top: solid 1px #666;
@@ -249,7 +249,7 @@ div#jobsearch_extra_form {
 
 .csr-job-box-logo {
    display: block;
-   float: right;        
+   float: right;
 }
 
 .csr-job-box-title {
@@ -314,7 +314,7 @@ div#jobsearch_extra_form {
 .search-results-panel-main-inner {
     width: auto;
     margin-left: 15px;
-}  
+}
 
 .search-results-panel-main ul {
     list-style-type: none;
@@ -437,56 +437,56 @@ div#jobsearch_extra_form {
 }
 
 @media (max-width: 640px) {
-    
+
     .search-results-sort-order-control {
       display: block;
       font-size: 16px;
       line-height: 1.25;
       width: 100%;
 	}
-    
+
     .search-results-panel-main {
         width: 100%;
         float: none;
     }
-    
+
     .search-results-panel-side {
         width: 100%;
         float: none;
     }
-    
+
     .search-results-panel-side-inner {
         margin-top: 0px;
         margin-left: 0px;
         margin-right: 0px;
     }
-    
+
     .search-results-panel-main-inner {
         margin-left: 0px;
     }
-    
+
     .search-results-job-count-number {
         font-size: 19px;
     }
-    
+
     .search-results-job-count-text {
         font-size: 16px;
     }
-    
+
     .search-results-job-box {
         font-size: 14px;
     }
-     
-     
+
+
     .search-results-job-box-title {
         font-size: 16px;
         font-weight: 700;
     }
-    
+
     .search-results-sortform {
         font-size: 19px;
     }
-    
+
     .search-results-pageform {
         font-size: 16px;
     }
@@ -524,7 +524,7 @@ div.vac_desc {
 	clear:both;
 	font-weight: bold;
 	height: 100%;
-	width:30%; 
+	width:30%;
 }
 
 .field_value {
@@ -548,15 +548,15 @@ table.appcentre th {
    border-bottom: solid 1px #bbb;
 
 }
-table.appcentre { 
-  width: 100%; 
-  border-top: solid 1px #bbb; 
-  border-left: solid 1px #bbb; 
+table.appcentre {
+  width: 100%;
+  border-top: solid 1px #bbb;
+  border-left: solid 1px #bbb;
   margin-bottom: 1em;
 }
 table.appcentre td {
-   border-right: solid 1px #bbb; 
-   border-bottom: solid 1px #bbb; 
+   border-right: solid 1px #bbb;
+   border-bottom: solid 1px #bbb;
 }
 
 #vac_main {
@@ -568,7 +568,7 @@ table.appcentre td {
 #vac_menu {
    float: right;
    width: 30%;
-} 
+}
 
 
 /* apply now page where we have login / register on same page */
@@ -581,17 +581,17 @@ table.appcentre td {
 .righthalf {
    float: right;
    width: 48%;
-}   
- 
+}
+
 .lefthalf, .righthalf {
    width: 46%;
 }
- 
+
 div#print_title { display: none; }
- 
- 
+
+
 .declaration_box {
-        border: #999999 1px solid;  
+        border: #999999 1px solid;
         padding: 2px 8px 0px 2px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -627,7 +627,7 @@ button[disabled] {
    padding-left: 15px;
 }
 /* ALERTS */
- 
+
 .alert-summary-agent {
    margin-left: auto;
    margin-right: auto;
@@ -641,19 +641,19 @@ button[disabled] {
    -moz-border-radius:  3px;
    display: block;
 }
- 
+
 .alert-summary-agent-header {
         position: relative;
         display: block;
         margin-bottom: 0.5em;
 }
- 
+
 .alert-summary-agent-title {
         position: relative;
         display: inline-block;
         width: 25%;
 }
- 
+
 .alert-summary-agent-links {
         position: relative;
         display: inline-block;
@@ -661,49 +661,49 @@ button[disabled] {
         width: 70%;
         padding-left: 4px;
 }
- 
+
 .alert-summary-agent-param {
         position: relative;
         display: block;
 }
- 
+
 .alert-summary-agent-param-name {
         position: relative;
         display: inline-block;
         vertical-align: top;
         width: 25%;
 }
- 
+
 .alert-summary-agent-param-values {
         position: relative;
         display: inline-block;
         width: 74%;
 }
- 
+
 .alert-summary-settings {
         display: block;
 }
- 
+
 .alert-summary-settings-content {
-        
+
         padding-left: 1em;
         padding-right: 1em;
         padding-bottom: 1em;
         padding-top: 0;
 }
- 
+
 .alert-summary-message {
         display: block;
 }
- 
+
 .alert-summary-message-content {
-        
+
         padding-left: 1em;
         padding-right: 1em;
         padding-bottom: 1em;
         padding-top: 0;
 }
- 
+
 /* END OF ALERTS */
 
 /* GDS ELements */
@@ -951,7 +951,7 @@ fieldset {
 }
 .question_hint_text {
    width: 100%;
-   
+
 }
 
 @media (max-width: 640px) {
@@ -1173,13 +1173,13 @@ div.validation_error input {
 }
 
 .csr-form-postcodedistance {
-    
+
     float: left;
 	width: 60%;
 }
 
 .csr-form-postcodeunits {
-	
+
     float: right;
 	width: 35%;
 }
@@ -1275,7 +1275,7 @@ div.validation_error input {
 }
 
 #ID_csr_form_postcodeunits {
-	
+
     float: right;
 	width: 35%;
 }
@@ -1289,7 +1289,7 @@ div.validation_error input {
 .toggle-search-selector {
    display: block;
  }
- 
+
 #id_search_selector_toggler {
    pointer-events: none;
    font-size: 24px;
@@ -1327,11 +1327,11 @@ div.validation_error input {
       padding-top: 15px;
       padding-bottom: 5px;
    }
-   
+
    .js-enabled-search-toggler:hover {
       cursor:pointer;
    }
-   
+
    #id_search_selector_images {
       display: inline;
    }
@@ -1351,7 +1351,7 @@ div.validation_error input {
       visibility: hidden !important;
    }
 }
-    
+
 .csr-sidebar-search-selector .csr-form-control, .csr-sidebar-search-selector .csr-form-postcode-div, .csr-sidebar-search-selector .csr-form-hint, .csr-sidebar-search-selector .csr-form-note {
     width: 100%;
     font-size: 16px;
@@ -1382,13 +1382,13 @@ div.validation_error input {
         font-size: 16px;
         line-height: 1.25;
     }
-    
+
     .csr-sidebar-search-selector .csr-form-group {
       margin-bottom: 10px;
 	}
 }
 
-   
+
 /* buttons */
 
 .csr-portal-button,.csr-portal-button:visited, .proceed, .proceed:visited {
@@ -1403,12 +1403,26 @@ div.validation_error input {
    box-shadow:0 2px 0 rgb(0,53,24);
    font-weight:400;
    overflow:visible;
-   
+
    padding: 0.3em 0.6em 0.2em 0.6em;
+}
+
+.csr-portal-button-welsh{
+  background-color: #1d70b8;
+  -webkit-box-shadow:0 2px 0 #003078;
+  -moz-box-shadow:0 2px 0 #003078;
+  box-shadow:0 2px 0 #003078;
+  float:right;
+  margin-top:6px;
+  margin-right:16px;
 }
 
 .csr-portal-button:active, .csr-portal-button:focus, .csr-portal-button:hover, .proceed:active, .proceed:focus, .proceed:hover{
    background-color: rgb(0,100,53);
+}
+
+.csr-portal-button-welsh:active, .csr-portal-button-welsh:focus, .csr-portal-button-welsh:hover{
+   background-color: #003078;
 }
 
 .csr-portal-button[disabled]:active, .csr-portal-button[disabled]:focus, .csr-portal-button[disabled]:hover, .proceed[disabled]:active, .proceed[disabled]:focus, .proceed[disabled]:hover{
@@ -1471,15 +1485,15 @@ button,html input[type="button"],input[type="reset"],input[type="submit"] {
       top: 21px;
    }
 }
-  
+
 .csr-block-label:hover, .radio_input:hover {
   border-color: #0b0c0c; }
 
 .csr-inline-fieldset .csr-block-label {
   clear: none;
-  margin-right: 10px; }  
+  margin-right: 10px; }
 
-  
+
 .js-enabled label.selected {
   background: #fff;
   border-color: #0b0c0c; }
@@ -1518,7 +1532,7 @@ button,html input[type="button"],input[type="reset"],input[type="submit"] {
 .p_meter {
 	width: 100%;
     display: inline-block;
-    
+
 }
 
 #skiplink-container div {
@@ -1586,7 +1600,7 @@ button,html input[type="button"],input[type="reset"],input[type="submit"] {
 @media (max-width: 640px) {
    #footer .footer-meta .copyright {
       font-size: 14px !important;
-      line-height: 1.14286 !important; 
+      line-height: 1.14286 !important;
    }
 }
 
@@ -1611,7 +1625,7 @@ button,html input[type="button"],input[type="reset"],input[type="submit"] {
    #footer .footer-meta .copyright a {
       text-align: center !important;
       background-position: top !important;
-      
+
    }
 
 }
@@ -1650,8 +1664,8 @@ button,html input[type="button"],input[type="reset"],input[type="submit"] {
 .gds-yscroll {
 	overflow-y: auto;
 }
-	
-table.gds-table { 
+
+table.gds-table {
   width: 100%;
   font-size: 16px;
   line-height: 1.25;
@@ -1764,7 +1778,7 @@ table.gds-table th.lastcol, td.lastcol {
 .vac_display_panel_main_inner {
     width: auto;
     margin-left: 15px;
-}        
+}
 
 .vac_display_panel_main {
     width: 66%;
@@ -1866,7 +1880,7 @@ table.gds-table th.lastcol, td.lastcol {
 
 .vac_display_attachments td{
     border: 0px;
-    
+
 }
 
 .vac_display_closing_date {
@@ -1890,81 +1904,81 @@ table.gds-table th.lastcol, td.lastcol {
 .vac_display_field_inline .vac_display_field_value {
     display: inline;
     margin-left: 10px;
-}    
+}
 
 @media (max-width: 640px) {
     .csr-page-subtitle {
         font-size: 20px;
         line-height: 1.2;
     }
-    
+
     .vac_display_title_block {
         width: 100%;
         float: none;
         margin-bottom: 5px;
     }
-    
+
     .vac_display_title_block h1 {
         font-size: 36px;
     }
-    
+
     .vac_display_return_link {
         width: 100%;
         float: none;
         text-align: left;
     }
-    
+
     .vac_display_logo_block {
         width: 100%;
         float: none;
         padding-top: 0px;
     }
-    
+
     .vac_display_logo {
         width: 100%;
         float: none;
         margin-bottom: 20px;
         text-align: left;
     }
-    
+
     .vac_display_panel_side {
         width: 100%;
         float: none;
         background-color: inherit;
     }
-    
+
     .vac_display_panel_main {
         width: 100%;
         float: none;
     }
-    
+
     .vac_display_apply {
         width: 100%;
         float: none;
     }
-    
+
     .vac_display_panel_main .vac_display_apply {
        width: 100%;
        float: none;
        margin-top: 15px;
     }
-    
+
     .vac_display_panel_side .vac_display_apply {
        width: 100%;
        float: none;
        margin-top: 15px;
     }
-    
-    
+
+
     .vac_display_apply_external a{
         display: block;
     }
-    
+
     .vac_display_field h3 {
         font-size: 16px;
         line-height: 1.25;
     }
-    
+
     .vac_display_field_inline h3 {
       font-size: 16px;
       line-height: 1.25;
@@ -1973,48 +1987,48 @@ table.gds-table th.lastcol, td.lastcol {
     .vac_display_field_value {
         font-size: 16px;
     }
-    
+
    .vac_display_section_heading h3 {
         font-size: 20px;
         font-weight: 700;
         margin-bottom: 10px;
-        
+
     }
-   
+
    .vac_display_panel_side .vac_display_section_heading h3{
         font-size: 20px;
         font-weight: 700;
         margin-bottom: 5px;
     }
-    
+
     .vac_display_panel_side .vac_display_field {
-        margin-bottom: 10px;    
+        margin-bottom: 10px;
     }
-    
+
     .vac_display_panel_main .vac_display_field {
-        margin-bottom: 10px;    
+        margin-bottom: 10px;
     }
-    
+
     .vac_display_closing_date {
         font-size: 19px;
         line-height: 1;
     }
-    
+
     .vac_display_panel_side_inner {
         margin-left: 0px;
         margin-right: 0px;
     }
-    
+
     .vac_display_panel_main_inner {
         margin-left: 0px;
         margin-right: 0px;
     }
-    
+
 }
 
 /* CSR SP 7 ALERT Styles */
 
- 
+
 .gds-alert-summary-summary h2 {
   font-size: 24px;
   margin-bottom: 15px;
@@ -2032,7 +2046,7 @@ table.gds-table th.lastcol, td.lastcol {
 	}
     .gds-alert-summary-summary h3 {
 	  font-size: 16px;
-	}    
+	}
 }
 
 .gds-alert-summary-message {
@@ -2094,7 +2108,7 @@ table.gds-table th.lastcol, td.lastcol {
     font-weight: 400;
 }
 
- 
+
 /* END OF ALERTS */
 
 /* Common Layout */
@@ -2113,7 +2127,7 @@ table.gds-table th.lastcol, td.lastcol {
 
 .csr-inline-js-enabled-off {
     display: inline;
-}   
+}
 
 .js-enabled .csr-inline-js-enabled-off {
     display: none;
@@ -2239,9 +2253,9 @@ h3.vac_application_status_title {
    h3.vac_application_status_title {
     font-size: 19px;
    }
-   
+
 }
-	
+
 .vac-view-vacancy-title {
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -2249,9 +2263,9 @@ h3.vac_application_status_title {
 
 .vac-view-vacancy-jcode {
 	margin-bottom: 20px;
-	
+
 }
-	
+
 #vac_menu_gds {
 	width: 30%;
 	float: right;
@@ -2270,11 +2284,11 @@ h3.vac_application_status_title {
 	width: 65%;
 	float: left;
 }
-	
+
 ul.gds_sidebar_menu {
 	list-style-type: none;
 }
-	
+
 .tabbed-view {
   padding: 0px;
 }
@@ -2300,9 +2314,9 @@ ul.gds_sidebar_menu {
   width: 100%;
   margin: 0 0px 2em;
   padding: 0 0px; }
-  
+
 @media (max-width: 960px) {
-  
+
   .activity-navigation li a {
     height: 2em; } }
 .activity-navigation ul {
@@ -2318,7 +2332,7 @@ ul.gds_sidebar_menu {
 
 .activity-navigation li a {
   display: block;
-  
+
   position: relative;
   zoom: 1;
   font-weight: 400;
@@ -2331,9 +2345,9 @@ ul.gds_sidebar_menu {
   border: 1px solid #bfc1c3;
   /* border-radius: 10px 10px 1px 1px; */
   overflow: visible;
-  
+
 }
-  
+
 .activity-navigation li a.current {
   background: white;
   color: #0b0c0c;
@@ -2343,62 +2357,62 @@ ul.gds_sidebar_menu {
 
 .activity-navigation li a:hover {
   text-decoration: underline; }
-  
+
 .activity-navigation li a:focus {
    outline: none;
    text-decoration: underline;
 }
-  
+
 @media (max-width: 640px) {
 
    .vac-view-vacancy-title h2 {
 		font-size: 24px;
    }
-   
+
    /*
    .tabbed-activity-tab {
 		border: 0px;
 		padding: 0px;
 	}
-	
+
 	*/
-	
+
 	#vac_menu_gds {
 		width: 100%;
 		float: none;
 		margin-top: 15px;
 		margin-bottom: 15px;
 	}
-	
+
 	#vac_menu_gds h2 {
 		font-size: 19px;
 	}
-	
-	
+
+
 	#vac_main_gds {
 		width: 100%;
 		float: none;
 	}
-  
+
   .activity-navigation {
     border: none; }
-  
+
   .tabbed-view {
     padding: 0px; }
-  
+
   .activity-navigation {
     margin-bottom: 2em; }
-  
+
    /*
   .activity-navigation ul {
     border-top: 1px solid #bfc1c3; }
-  
+
   .activity-navigation li {
     float: none;
     width: 100%;
     border: none;
     padding: 0; }
-  
+
   .activity-navigation li a {
     border: none;
     border-bottom: 1px solid #bfc1c3;
@@ -2409,26 +2423,26 @@ ul.gds_sidebar_menu {
     height: auto;
     margin: 0;
     color: #005ea5; }
-  
+
   .activity-navigation li a.current {
     border: none;
     border-bottom: 1px solid #bfc1c3;
     background: #dee0e2;
     padding: 7px 15px;
     margin: 0; }
-  
+
   .activity-navigation li:focus {
     border-top: 1px solid #ffbf47;
     border-bottom: 1px solid #ffbf47;
    }
-   
+
    */
-   
+
    .activity-navigation li a {
     padding: 5px;
     font-size: 12px;
     }
-  
+
   .activity-navigation li a.current {
     padding: 5px;
     font-size: 12px;
@@ -2444,12 +2458,12 @@ ul.gds_sidebar_menu {
   text-transform: none;
   font-weight: 700; }
   @media (max-width: 640px) {
-    
+
     .tabbed-view h2 {
       font-size: 18px;
       line-height: 1.11111; }
 	}
-	
+
 #id_app_communications {
 	display: block;
 }
@@ -2492,7 +2506,7 @@ ul.gds_sidebar_menu {
     clear: none;
     display: none;
    }
-   
+
 }
 
 /* Wrap long hrefs */
@@ -2576,7 +2590,7 @@ a {
    .csr-standard-message ul {
       margin-left: 18px;
    }
-   
+
 }
 
 
@@ -2707,7 +2721,7 @@ a[rel="collapsible-link"]:focus {
 #responsive_placeholder {
     /* max-width here is used only by JQuery to determine
      * current screen style: 1 desktop, 2 mobile(640), 3 tablet(800) */
-    
+
     max-width: 1px;
     display: none;
 }
@@ -2788,11 +2802,11 @@ a[rel="collapsible-link"]:focus {
   .cs_commissioners_logo {
      height: 71px;
   }
-    
+
   .disability_confident_logo {
       height: 71px;
   }
-  
+
   .cs_commissioners_link {
     margin-right: 38px;
     margin-bottom: 10px;
@@ -2867,7 +2881,7 @@ a[rel="collapsible-link"]:focus {
         padding-left: 30px;
         padding-right: 30px;
         width: 641px;
-        
+
     }
     .csr-cookie-button-div {
         display: inline-block;
@@ -2876,12 +2890,12 @@ a[rel="collapsible-link"]:focus {
         margin-top: 1em;
         margin-bottom: 1em;
     }
-    
+
     .csr-cookie-button {
         display: inline-block;
         width: 90%;
     }
-    
+
     .csr-cookie-message-div {
       font-size: 19px;
       line-height: 1.3157894737;
@@ -2907,13 +2921,13 @@ a[rel="collapsible-link"]:focus {
 
 .csr-top-panel-control-column-outer {
   box-sizing: border-box;
-  
+
   width: 100%;
 }
 
 .csr-top-panel-button-column {
   box-sizing: border-box;
-  
+
   width: 100%;
 }
 
@@ -3027,10 +3041,9 @@ a[rel="collapsible-link"]:focus {
   .csr4-page-column-75 {
     width: 75%;
   }
-  
+
   .csr4-page-column-50 #job_ref_code {
     width: 100%;
   }
-  
-}
 
+}
