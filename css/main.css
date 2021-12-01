@@ -1,0 +1,1343 @@
+/*
+World Careers Network Plc
+System:				ATS v7
+Client:				Civil Service
+Description:		Main System CSS
+Created By:			Ahmed Alhaydari
+--------------------------------------------------
+Last Updated By: 	David Moore
+Date:                   28/03/2014
+*/
+
+
+/* elements moved from csr portal css */
+
+.csr-portal-standard-container{
+   max-width: 960px;
+   min-width:  50px;
+   margin-left: auto;
+   margin-right: auto;
+   clear: both;
+   font-size: 19px;
+   line-height: 1.3157894737;
+   *width: 95%;
+   /* *margin-left: 2%; */
+}
+
+@media (max-width: 640px) {
+  .csr-portal-standard-container {
+	margin-left: 15px;
+	margin-right: 15px;
+    font-size: 16px;
+    line-height: 1.25; 
+ }
+}
+
+@media (min-width: 641px) {
+  .csr-portal-standard-container {
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 19px;
+    line-height: 1.3157894737;
+ }
+}
+
+@media (min-width: 1021px) {
+  .csr-portal-standard-container {
+	margin-left: auto;
+	margin-right: auto;
+ }
+}
+
+
+
+
+
+
+ul{ list-style:none outside none; }
+
+/* CANDIDATE INTERFACE STYLING */
+
+.skip-container {
+   width: 100%;
+   background-color: #0b0c0c;
+}
+
+div#skip {
+   max-width: 960px;
+   min-width:  50px;
+   margin-left: auto;
+   margin-right: auto;
+   clear: both;
+   font-size: 19px;
+   line-height: 1.3157894737;
+   *width: 95%;
+   
+}
+
+div#skip a {
+   position: absolute;
+   left: -9999em;
+}
+
+div#skip a:focus {
+   
+   position: relative;
+   left: auto;
+}
+
+@media (max-width: 640px) {
+  div#skip {
+	margin-left: 15px;
+	margin-right: 15px;
+    font-size: 16px;
+    line-height: 1.25; 
+ }
+}
+
+@media (min-width: 641px) {
+  div#skip {
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 19px;
+    line-height: 1.3157894737;
+ }
+}
+
+@media (min-width: 1021px) {
+  div#skip  {
+	margin-left: auto;
+	margin-right: auto;
+ }
+}
+
+/*
+.skiplink {
+  position: absolute;
+  left: -9999em; }
+
+.skiplink:focus {
+  position: static; }
+
+#skiplink-container {
+  text-align: center;
+  background: #0b0c0c; }
+  #skiplink-container div {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 1020px; }
+  #skiplink-container .skiplink {
+    display: -moz-inline-stack;
+    display: inline-block;
+    margin: 0.75em 0 0 30px; }
+
+*/
+
+
+/* COLUMN1 IS THE CONTENT CONTAINER, BLANK IS FOR ATS VIEW DO NOT REMOVE */
+div.wrapper{
+	width:100%;
+	background-color:#fff;
+}
+div#column1, div#blank{
+    max-width: 960px;
+/*    min-width: 800px; */
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    *width: 95%: ;
+    *margin-left: 2%: ;
+/*	margin: 0 auto;
+	width: 1180px;
+	min-height: 350px;
+	clear:both;
+	background-color:#fff; */
+}
+
+@media (max-width: 640px) {
+   div#column1, div#blank{
+      width:100%;
+      
+   }
+   
+}
+
+/* LEFTMENU STYLING */
+div#leftmenu {
+	width: 25%;
+   border-right: 1px solid #bfc1c3;
+   min-height: 900px;
+	float: left;
+	margin-top: 3em;
+	margin-bottom:10px;
+}
+
+@media (max-width: 640px) {
+  div#leftmenu {
+	width: 100%;
+    border-right: none;
+    min-height: 1px;
+	float: none;
+	margin-top: 0px;
+	margin-bottom:0px;
+ }
+}
+
+
+
+/* MAIN CONTENT STYLING */
+div#main {
+	float:left;
+	padding-left: 20px; 
+	width: 71%;
+    font-size: 19px;
+}
+
+@media (max-width: 640px) {
+   div#main {
+      float:none;
+      padding: 0px; 
+      width: auto;
+      margin-left: 15px;
+      margin-right: 15px;
+       font-size: 16px;
+   }  
+}
+
+/* CANDIDTE USERNAME STYLING */
+div#namediv {
+	margin-bottom: 5px;
+	margin-top: 5px; 
+	font-weight: bold; 
+	color: #000; 
+	text-align: right;
+}
+
+/* PAGE TITLE STYLING */
+div#sectiontitle {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#subhead{
+	margin-bottom:20px;
+	width:321px;
+
+clear: both;
+/*	float:left;
+	margin-right:31px;*/
+}
+.subhead{
+	background:#93c6e3;
+	color:#fff;
+	display:block;
+	font-size:1.5em;
+	padding-top:11px;
+	padding-bottom:11px;
+	padding-left:15px;
+	margin-bottom:20px;
+}
+div#subhead div a.button_link, div#subhead div a.button_link:visited{
+	background-color:#b40d18;
+	color:#fff;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding:10px 10px;
+	display:block;
+	float:left;
+	font-size:1.3em;
+	font-weight:bold;
+	text-decoration:none;
+}
+div#subhead div a:hover.button_link{ background-color:#db888b; }
+div#sectiontitle h1{
+	height: 36px;
+	padding: 0.6em 0 0.6em 0em;
+}
+
+@media (max-width: 640px) {
+   div#sectiontitle h1{
+	 height: auto;
+	 padding: 0em;
+     margin-top: 1em;
+     font-size: 24px;
+     line-height: 1.025;
+   }
+}
+
+div.red{
+	color:red;
+	font-size:1.3em;
+	margin-bottom:10px;
+}
+.faq_pg li{
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.faq_pg li.nodott{
+	list-style-type:none;
+	font-weight:normal;
+}
+.faq_pg li ul li span{ Font-weight: bold; }
+.faq_pg li ul li{ 
+	list-style-type:circle;
+	font-weight:normal;
+	margin:5px 0px
+}
+/* This is used to Kill the hyperlink colour of pages name in print application and view application page. */
+.label h1 a{ color:#000;}
+.label h1 a:hover{ 
+	color:#000;
+	text-decoration:none;
+}
+
+/* CONTENT STYLING */
+div#app_date { text-align: right; }
+div#pre_text { text-align: justify; }
+
+#pre_text .tracker_img { }
+
+
+/* strong { color: #007dc3; } */
+/* APPFORM PRE TEXT STYLING */
+div#pre_text a { text-decoration:underline; }
+div#pre_text b {  }
+div#compulsory_question_warning { text-align: center; }
+#app_centre_text { }
+#app_centre_text h2 {
+	display: inline;
+	font-size: 1.0em;
+}
+
+/* FOOTER FOR MAIN CONTENT */
+#footer_right { }
+.clear {
+	clear: both; 
+	display: block; 
+	overflow: hidden; 
+	height: 1px;
+}
+/* FOOTER FOR WHOLE PAGE */
+/*div#footer_all2 {
+	width: 1180px;
+	margin: 0 auto;
+	display:block;
+	clear:both;
+	margin-top:20px;
+} 
+#footer_all2 a{
+	margin:0.5em 0;
+	padding-right:5px;
+	padding-left:5px;
+	color:#000;
+	text-decoration:underline;
+} */
+ul.horizontal li { display:inline; }
+
+.hidden { display: none; }
+
+/* override for date field labels which are hidden generically */
+#myform div.app_form_date_element {
+  display: block;
+  float: left;
+  margin: 0 6px 0 0;
+  font-size: 19px;
+}
+/* need to pull  down the container for dates so any slave q border extends down fully */
+
+.clear_date_block {
+  height: 0px;
+  clear: both;
+  overflow: hidden;
+}
+
+
+
+
+/* LEFTMENU TITLE POSITIONING */
+div#left_menu_heading {
+	text-align:center;
+	display: none;
+}
+/* LEFTMENU TEXT STYLING */
+h2.left_menu_heading {
+	font-weight: bold; 
+	color: #000;
+	font-size:1.5em;
+	border:1px solid #fff;
+	display: none;
+}
+/* TRACKERMENU STYLING */
+ul#trackermenu, ul.key {
+	margin-top: 0px; 
+	list-style-type: none;
+}
+/* TRACKERMENU OPTION STYLING */
+ul#trackermenu li, ul.key li {
+	margin: 0px;
+	padding: 0px 0px 0px 0px; 
+	display: block; 
+}
+
+/* TRACKERMENU LINK STYLING */
+a.leftmenu_link, a.leftmenu_link:link, a.leftmenu_link:visited, a.leftmenu_current{
+}
+/* HOVER EFFECTS */
+a.leftmenu_link:hover, a.leftmenu_link:active, a.leftmenu_current:hover{
+}
+/* HOVER EFFECTS BUTTON LINK */
+a.leftmenu_current { 
+}
+
+
+a.leftmenu_link, a.leftmenu_link:link, a.leftmenu_link:visited, a.leftmenu_current, a.leftmenu_link:hover, a.leftmenu_link:active, a.leftmenu_current:hover, a.leftmenu_current {
+display:block;
+text-decoration: none;
+background-color: white;
+border: 0px;
+color: #005ea5;
+}
+
+a.leftmenu_link:visited {
+   color: #4c2c92;
+}
+
+a.leftmenu_link:hover {
+   background-color: #dee0e2;
+   color: #005ea5;
+}
+
+a.leftmenu_current, a.leftmenu_current:visited, a.leftmenu_current:link  {
+   background-color: #005ea5;
+   color: white;
+}
+
+
+a.leftmenu_link:after {
+  top: 50%;
+  right: 10px;
+  float: right;
+  content: "\203A";
+}
+
+ul#trackermenu li  a.completed:before, ul#trackermenu li  a.blank_ico:before, ul#trackermenu li  a.completed_current:before, ul#trackermenu li  a.blank_ico_current:before
+ {
+  font-family: icomoon;
+  color: #006435;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  content: " ";
+  display: inline-block;
+  margin-right: 5px;
+  text-decoration: none;
+}
+ul#trackermenu li  a.completed:before, ul#trackermenu li  a.completed_current:before {
+  content: "\ea10";
+}
+
+ul#trackermenu li  a.blank_ico:before, ul#trackermenu li  a.blank_ico_current:before {
+  padding-left: 16px;
+  content: "";
+}
+
+ul#trackermenu li  a.completed_current:before, ul#trackermenu li  a.blank_ico_current:before {
+   color: white;
+}
+
+
+/* tacker key shares this */
+a.leftmenu_link, a.leftmenu_link:link, a.leftmenu_link:visited, a.leftmenu_current, a.leftmenu_link:hover, a.leftmenu_link:active, a.leftmenu_current:hover, a.leftmenu_current, ul.key li {
+  padding: 12px 10px 8px 5px;
+}
+
+@media (max-width: 640px) {
+   a.leftmenu_link, a.leftmenu_link:link, a.leftmenu_link:visited, a.leftmenu_current, a.leftmenu_link:hover, a.leftmenu_link:active, a.leftmenu_current:hover, a.leftmenu_current, ul.key li {
+      padding: 3px 15px 3px 5px;
+   }
+}
+
+/* TRACKERMENU ICON STYLING*/
+img.tracker_img {
+	padding: 3px 8px 3px 0px; 
+	vertical-align: middle;
+}
+
+/* SYMBOL KEY TITLE POSITIONING */
+div#key{
+	margin-top: 40px;   
+	margin-bottom: 0px;   
+	text-align: center;
+	padding-bottom: 5px;
+}
+/* SYMBOL KEY TITLE STYLING */
+#key_title {
+	color: #000; 
+	font-size:1.5em; 
+}
+
+/* SYMBOL KEY STYLING*/
+ul.key {
+}
+/* SYMBOL KEY LIST STYLING*/
+ul.key li {
+}
+/* SYMBOL KEY ICON POSITIONING */
+ul.key li  img.tracker_img{}
+
+
+.key { }
+
+/* OPTION BAR STYLING */ 
+div#options {
+/*	height: 3em;
+	border-bottom: 1px solid black; */
+}
+
+@media (max-width: 640px) {
+   div#options {
+      margin-top: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background: #DEE0E2;
+   }
+}
+
+/* OPTIONS BAR POSITIONING */
+#options ul {
+/*	margin-left:0px; 
+	margin-top:5px;*/
+  list-style-type: none;
+  text-align: right;
+}
+/*OPTIONS BAR LIST STYLING */
+#options li {
+	display: inline-block;
+  padding: 0 5px;
+  font-size: 19px;
+/* Ie7 doesn't like inline-block */
+* display: inline;
+* zoom: 1;
+/* end of IE7 hack */
+
+}
+
+@media (max-width: 640px) {
+   #options li {
+      font-size: 16px;
+   }
+}
+
+
+/* OPTIONS BAR LINK STYLING */
+#options li a:link, #options li a:visited {
+/*	padding:0 10px 0 10px;*/
+	margin:0 auto; 
+/*	text-decoration:none;*/
+}
+/* HOVER EFFECTS */
+/*#options li a:hover {
+	color:red; 
+	text-decoration: underline;
+}*/
+
+/* QUESTION TEXT PRE TEXT STYLING */
+.pre_question_text {
+	margin-top: 0px; 
+	display: block; 
+	margin-bottom: 0px; 
+}
+
+.pre_question_text h2 {
+   margin-top: 20px;
+}
+
+.question_row {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.csr_gov_radio_input {
+   margin-bottom: 110px;
+}
+
+@media (max-width: 640px) {
+   .csr_gov_radio_input {
+      margin-bottom: 40px;
+   }
+}
+
+.question_col { float: left; font-size: 19px; }
+/* QUESTION LABEL STYLING */
+
+/* slave questions to be indented */
+.saf_slave_field {
+  border-left: 4px solid #bfc1c3;
+  padding: 10px 0 10px 15px;
+  margin: 0px;
+  padding-bottom: 32px;
+}
+
+.label {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.25;
+  font-weight: 700;
+  text-transform: none;
+  display: block;
+  margin-bottom: 0;
+  
+}
+
+@media (max-width: 640px) {
+  .label {
+    font-size: 16px;
+   }
+}
+
+
+span.multi-col-label { float: left; }
+
+/*span.multi-col-label, .question_col {border: solid 1px blue; }*/
+
+.question_row .label label { /* make labels go 100% if not col based page */
+   display: block;
+   width: 100%;
+}
+
+/* MANDATORY FIELD STYLING */
+.mandfieldcolor { 
+
+}
+/* MANDATORY STAR STYLING */
+.mand_star {
+    display: none;
+	font-size: 1.7em; 
+	color: #f00;
+	position:relative;
+	top:5px;
+}
+/* MANDATORY STAR FIX CODE DO NOT TOUCH */
+.mand_star span{ display:none; }
+
+div.mandatory { }
+div.optional .label label:after { content: " (optional)"; }
+
+
+
+.help_link {  vertical-align: bottom; }
+.help_icon { padding-left: 10px; }
+.clear_q_row {
+	clear: both; 
+	display: block; 
+	overflow: hidden; 
+	height: 0px;
+        padding: 0px;
+}
+Div.pre_submit_div { }
+.submit_row { text-align: center; margin-top: 1em; }
+
+.add_button { }
+/* BUTTON STYLING */
+
+#clear_all { text-align: left; }
+
+/* WORD COUNTER STYLING */
+div.counter { }
+div.counter input { border: #fff 1px solid; }
+
+.view_app_text { color: black; }
+.print_app_col { float: left; }
+.print_app_row {}
+/* LOGIN PAGE STYLING */
+div#registered_users { }
+div#new_users { }
+/* PAGE SUB-TITLE STYLING */
+h2.mainpage {
+	display: block;
+	background:#93c6e3;
+	color:#fff;
+	font-size:1.3em;
+	padding-top:11px;
+	padding-bottom:11px;
+	padding-left:15px;
+	margin-bottom:20px;
+}
+.declaration { text-align: justify; }
+.declaration_box {
+	border: #999999 1px solid;  
+	padding: 2px 8px 0px 2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: scroll;
+	height: 130px;
+}
+div#agree_checkbox { padding-bottom: 5px; }
+/* CANDIDATE WARNING BOX STYLING I.E. INCORRECT LOGIN DETAILS BOX */
+
+
+/* INCOMPLETE PAGE STYLING */
+div#incomplete ul {
+	padding: 0px; 
+	margin: 2px 0px 2px 16px; 
+	list-style-type: square
+}
+div#incomplete li { padding-top: 2px 0px 2px 0px; }
+h2.print_app {
+	padding-top: 2px 0px 2px 3px; 
+	display: block;  
+}
+/* APPCENTRE PAGE STYLING */
+/* 20100909 - JD added 	padding-right: 15px;*/
+div#app_centre_text { padding-top: 10px; }
+th.appcentre {
+	background-color: #ddd; 
+	text-align: left;
+	padding:5px 0px;
+	background:#93c6e3;
+	color:#fff;
+	margin-bottom:20px;
+}
+table.appcentre { }
+div#popup_help_title {
+	margin-bottom: 6px;
+	border-bottom: black 1px solid;
+}
+div#popup_help_text { }
+.para {
+	padding-top: 4px;
+	padding-bottom: 8px; 
+	margin-top: 0px; 
+	margin-bottom: 0px; 
+	display: block; 
+}
+.smalltext { }
+.smalltextpara {
+	margin-top: 2px; 
+	display: block; 
+	margin-bottom: 4px;
+}
+div#print_title { display: none; }
+.scheme_choice {  border: #c8c8c8 1px solid; }
+
+/* VACANCY MENU STYLING (APPCENTRE PAGE) */
+ul.vac_menu {
+	padding: 0px; 
+	margin: 50px 0px 0px 0px;
+}
+/* VACANCY MENU LIST STYLING */
+ul.vac_menu li { display:block; } 
+/* VACANCY SUB TITLE STYLING */
+li.vac_menu_title {
+	margin: 0px; 
+	background-color: #DB888B;
+	cursor: default;
+	display: block;
+	font-size: 1.145em;
+	padding: 10px 0 10px 0px;
+	text-align:center;
+	text-decoration: none;
+	color:#fff;
+}
+/* VACANCY MENU LINK STYLING */
+ul.vac_menu a:link, ul.vac_menu a:visited {
+	display: block;	
+	background-color: #B40D18;
+	border-bottom: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	display: block;
+	font-size: 1.145em;
+	padding: 10px 0 10px 5px;
+}
+/* VACANCY MENU ACTIVE LINK STYLING*/
+
+/* HOVER AND ACTIVE EFFECTS */
+ul.vac_menu a:hover, ul.vac_menu a:active {
+	background-color: #DB888B;
+	cursor: pointer;
+	display: block;
+	font-size: 1.145em;
+	padding: 10px 0 10px 5px;
+	text-decoration: none;
+}
+li.container { }
+ul.vac_item {
+	padding: 0px 0px 0px 0px; 
+	margin: 0px 0px 0px 0px;
+}
+ul.vac_item li {}
+ul.vac_item a:link, ul.vac_item a:visited { padding-left:15px; }
+ul.vac_item a:active{ padding-left:15px; }
+ul.vac_item a:hover{ padding-left:15px; }
+
+#popup_help_text { color:#fff; }
+/* FIXES SEARCH ENGINE RESULTS TABLE */
+div.results_table SPAN { display: none;}
+
+.heading {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+div#left_foot {
+	border: 2px solid #951C07;
+	background-color: #FFF;
+	position: absolute;
+	_position: relative;
+	width: 176px;
+	margin-top: 30px;
+	text-align: center;
+	padding: 5px;
+	display:none;
+}
+
+.left_foot_main {
+	font-weight: bold;
+	display: block;
+}
+
+ul.dot { list-style: disc inside; }
+
+/* ------------------Edited By ED 0n 01/09/2010 -----------------*/
+/* ------------------ IE6 Fix Main Column due to password strength alignment -----------------*/
+.p_meter{
+	width: 200px;
+	_width: 180px;
+	_clear: none;
+	_margin-left: 0px !important;
+	float:left;
+}
+#FIELDpassword span.mand_star{
+	_float:left;
+	_display:inline;
+}
+
+
+#FIELDpassword label {
+	_display:block;
+	_float:left;
+}
+
+#FIELDpassword label span.mand_star{ _display:inline; }
+
+.mand_star2 {
+	font-size: 1.7em; 
+	color: #f00;
+	position:relative;
+	top:5px;
+}
+/* ------------------Edited By Ricky 0n 29/12/2010 -----------------*/
+/*-- Added the following to ensure list styling is shown for OLT feedback --*/
+#app_centre_text ul { list-style: disc inside; }
+
+#app_centre_text ol { list-style: decimal inside; }
+
+
+/* ------------------Edited By Ahmed 0n 01/08/2011 -----------------*/
+:root #NavTop_pnlTop ul { top:27px \0/IE9; }
+#NavTop_pnlTop ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0pt;
+	position:relative;
+	_position:absolute;
+	top:18px;
+	top:20px \0/IE8;
+	*top:-10px;
+	_top:117px;
+}
+
+#NavTop_pnlTop ul li {
+	display: inline;
+	float: left;
+	margin: 0pt 0.3em 0pt 0pt;
+	padding: 0pt;
+	border:1p solid red;
+}
+
+#NavTop_pnlTop a {
+	background: url("https://jobsstatic.civilservice.gov.uk/company/nghr/civilservice/images/navMain_bg_tcm6-99.jpg") repeat-x scroll right top #B20A01;
+	color: #FFFFFF;
+	display: block;
+	font-size: 1.11em;
+	letter-spacing: 0.1em;
+}
+
+#NavTop_pnlTop a span {
+	background: url("https://jobsstatic.civilservice.gov.uk/company/nghr/civilservice/images/navMain_left_tcm6-103.jpg") no-repeat scroll left top transparent;
+	display: block;
+	padding: 0.7em 2em;
+}
+
+#NavTop_pnlTop  a:hover {
+	 background: url("https://jobsstatic.civilservice.gov.uk/company/nghr/civilservice/images/navMain_bg_over_tcm6-100.jpg") repeat-x scroll right top #885E2C;
+	 text-decoration: none;
+}
+
+#NavTop_pnlTop a:hover span {
+	background: url("https://jobsstatic.civilservice.gov.uk/company/nghr/civilservice/images/navMain_left_over_tcm6-104.jpg") no-repeat scroll left top transparent;
+}
+
+#NavTop_pnlTop a.on {
+	background: url("https://jobsstatic.civilservice.gov.uk/company/nghr/civilservice/images/navMain_bg_over_tcm6-100.jpg") repeat-x scroll right top #885E2C;
+	text-decoration: none;
+}
+
+#NavTop_pnlTop a.on span {
+	background: url("https://jobsstatic.civilservice.gov.uk/company/nghr/civilservice/images/navMain_left_over_tcm6-104.jpg") no-repeat scroll left top transparent;
+}
+
+.user-tools {
+	clear: both;
+	float: right;
+	margin-top:-28px;
+	*margin-top:-46px;
+	position:relative;
+	left:2px;
+}
+.user-tools ul {
+	display: inline;
+	margin: 0;
+}
+.user-tools li {
+	border-right: 1px dashed #A6963E;
+	display: inline;
+}
+.user-tools li a {
+	background: url("https://jobsstatic.civilservice.gov.uk/company/nghr/civilservice/images/bullet_plus_red_tcm6-254.gif") no-repeat scroll left center transparent;
+	color: #BA220A;
+	font-size: 1.11em;
+	margin-left: 0.5em;
+	padding: 0 0.5em 0 1em;
+}
+.user-tools li#feeds { padding: 0; }
+.user-tools li#feeds, .user-tools li#feeds li {
+	border: medium none;
+	padding-right: 0;
+}
+#feeds li a {
+	background: none repeat scroll 0 0 transparent;
+	margin: 0;
+	padding: 0;
+}
+#feeds img {
+	position: relative;
+	top: 0.3em;
+}
+
+/*JD - Added this to supress some text from VT on candidate side*/
+
+span.supress{
+display: none;
+}
+/* -- Added by Ahmed ---*/
+/* -- 13.03.2014 -- */
+/*#footer_all{
+width:1180px;
+margin:0px auto;
+text-align:center;
+}*/
+#popup_help_text{ color:#000; }
+/* -- End of Ahmed Fix -- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* STANDARD HTML TAG STYLING */
+*{
+        margin:0;
+        padding:0;
+}
+html{
+        margin-bottom:0px;
+}
+
+td{
+        border-width: 0px;
+        padding: 3px 14px 3px 2px;
+   vertical-align:top;
+}
+
+
+
+hr { color: black; }
+
+form { display: inline;}
+div#form { margin-top: 0px; }
+fieldset {
+        padding: 0px; 
+        margin: 0px; 
+        border-style: none; 
+}
+
+fieldset.radio_fieldset {
+   margin-bottom: 10px;
+}
+
+legend {
+        border-width: 0px; 
+        padding: 0px; 
+        display: none; 
+        margin: 0px;
+}
+
+legend.visible {
+        border-width: inherit;
+        padding: inherit;
+        display: block;
+        margin: 0px;
+}
+
+
+select, input, textarea{
+  border: 2px solid #6f777b;
+}
+
+img{
+        border: 0px;
+        border:medium none;
+}
+ul{ list-style:none outside none; }
+
+p{ padding: 0.6em 0;}
+
+
+
+/* Global styles */
+
+body,
+input,
+select,
+textarea {
+    font-family: "nta", Arial, sans-serif;
+    font-size: 19px;
+    line-height: 1.31579;
+    font-weight: 400;
+    text-transform: none;
+}
+
+label.radio_input {
+  clear: none;
+  margin-right: 10px;
+}
+
+/* fix contained radio input boxes with GOV.UK styles */
+
+.saf_slave_field.csr_gov_radio_input{
+   overflow: hidden;
+}
+
+@media (max-width: 640px) {
+  .saf_slave_field.csr_gov_radio_input{
+      overflow: visible;
+   }
+}
+
+div#form input, div#form select, div#form textarea {
+    padding: 4px;
+}
+
+div#form input[type='radio'], div#form input[type='checkbox'] {
+    padding: 0px;
+}
+
+@media (min-width: 641px) {
+  div#form input
+/*, div#form textarea */
+{
+    width: 50%;
+  }
+
+ div#form textarea { width: 100%; }
+
+  div#form input[type='radio'], div#form input[type='checkbox'], div#form input[type='submit'] {
+    width: auto;
+  }
+}
+
+@media (max-width: 640px) {
+    div#form input, div#form select, div#form textarea {
+      font-size: 16px;
+      line-height: 1.25;
+      width: 100%;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      padding-left: 0px;
+      padding-right: 0px;
+   }
+   div#form input[type='radio'], div#form input[type='checkbox'] {
+    width: auto;
+    padding: 0px;
+  }
+}
+
+h1, .heading-level-1 {
+    font-family: "nta", Arial, sans-serif;
+    font-size: 36px;
+    line-height: 1.04167;
+    font-weight: 700;
+    text-transform: none;
+    padding-top: 7px;
+    padding-bottom: 13px;
+}
+
+h2, .heading-level-2 {
+    font-family: "nta", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.11111;
+    font-weight: 700;
+    text-transform: none;
+    padding-top: 6px;
+    padding-bottom: 9px;
+}
+
+h3, .heading-level-3 {
+    font-family: "nta", Arial, sans-serif;
+    font-size: 19px;
+    line-height: 1.25;
+    font-weight: 700;
+    text-transform: none;
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+
+h4, .heading-level-4 {
+    font-family: "nta", Arial, sans-serif;
+    font-size: 19px;
+    line-height: 1.25;
+    font-weight: 700;
+    text-transform: none;
+    font-weight: 700;
+}
+
+@media (max-width: 640px) {
+
+   h1, .heading-level-1 {
+       font-size: 24px;
+       line-height: 1.025;
+   }
+   
+   h2, .heading-level-2 {
+       font-size: 19px;
+       line-height: 1.11111;
+   }
+   
+   h3, .heading-level-3 {
+       font-size: 16px;
+       line-height: 1.11111;
+   }
+   
+   h4, .heading-level-4 {
+       font-size: 16px;
+       line-height: 1.11111;
+   }
+
+}
+
+/* Service name beta tag */
+
+.beta-tag {
+    display: -moz-inline-stack;
+    display: inline-block;
+    background-color: #f47738;
+    color: #fff;
+    font-family: "nta", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 300;
+    text-transform: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 3px 10px 0 5px;
+    padding: 2px 5px 0;
+}
+
+/* Beta banner styles */
+
+.beta-banner {
+    font-family: "nta", Arial, sans-serif;
+    font-size: 19px;
+    line-height: 1.31579;
+    font-weight: 700;
+    text-transform: none;
+    padding: 8px 0;
+    background-color: #f47738;
+}
+
+.beta-banner p {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+    color: #0b0c0c;
+    font-family: "nta", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 300;
+    text-transform: none;
+}
+
+.beta-banner a,
+.beta-banner a:link,
+.beta-banner a:visited,
+.beta-banner a:active {
+    color: #0b0c0c;
+}
+
+.beta-banner a:hover {
+    color: #0b0c0c;
+}
+
+.beta-banner strong {
+    text-transform: uppercase;
+}
+
+
+
+.acc_heading  { /* accessibility headings for screen readers, are hidden */
+   position: absolute;
+   left: -999em;
+}
+
+#global-cookie-message p { padding: 0; }
+
+#footer p {
+   padding: 0px;
+}
+
+.hidden { display: none; }
+
+/* alternate position for options and name div */
+
+#global_owner_navigation {
+   margin-bottom: 7px;
+}
+
+#namediv.appform_alternate_namediv {
+   margin-top: 0px;
+   margin-bottom: 5px;
+   font-weight: 400;
+   padding-right: 5px;
+}
+
+/* end alternate postition */
+
+/* copied from csrportal3.css or from govuk-template.css */
+.csr-portal-button,.csr-portal-button:visited, .proceed, .proceed:visited, .proceedactive {
+   background-color: rgb(0,130,59);
+   color:#fff;
+   border: none;
+   -webkit-border-radius:0px;
+   -moz-border-radius:0px;
+   border-radius:0px;
+   -webkit-box-shadow:0 2px 0 rgb(0,53,24);
+   -moz-box-shadow:0 2px 0 rgb(0,53,24);
+   box-shadow:0 2px 0 rgb(0,53,24);
+   font-weight:400;
+   overflow:visible;
+   padding: 0.3em 0.6em 0.2em 0.6em !important;
+}
+
+ .proceed, .proceedactive { /* differences from csrportal$ver.css */
+  display: block;
+  float: left;
+}
+
+
+.csr-portal-button:active, .csr-portal-button:focus, .csr-portal-button:hover, .proceedactive, .proceed:focus, .proceed:hover{
+   background-color: rgb(0,100,53);
+}
+
+input[type=submit][disabled],
+button[disabled] {
+   opacity: 0.5;
+   filter: alpha(opacity=50);
+}
+
+@media (max-width: 640px) {
+  .csr-portal-button {
+    width: 100%;
+        }
+}
+
+input.clear_all_button, input.clear_all_active {
+  color: #005ea5;
+  -webkit-appearance: normal;
+  text-decoration: underline;
+  margin-top: 0.4em;
+  background-color: #fff;
+  border: none;
+}
+input.clear_all_active {
+    color: #2e8aca;
+}
+
+
+
+
+
+/* end of copy */
+
+
+button,html input[type="button"],input[type="reset"],input[type="submit"] {
+   -webkit-appearance:button;
+   cursor:pointer;
+   *overflow:visible
+}
+
+
+.warning {
+background-color: #FEF7F7;
+  border: none;
+border-left: 3px solid #DF3034;
+padding: 0.25em 1em 0 0.5em;
+margin: 9px 0px 9px 0px;
+color: #DF3034;
+font-size: 1.6rem;
+}
+
+.browser_warning, .warning {
+
+}
+
+div#PRE4805\.xacts_comp_state2_blob\.1 strong, div#PRE4805\.xacts_competence_state_blob\.1 strong, 
+div#PRE4805\.xacts_comp_state3_blob\.1 strong, div#PRE4805\.xacts_comp_state4_blob\.1 strong,
+div#PRE4805\.xacts_comp_state5_blob\.1 strong, div#PRE4805\.xacts_comp_state6_blob\.1 strong,
+div#PRE4805\.xacts_comp_state7_blob\.1 strong, div#PRE4805\.xacts_comp_state8_blob\.1 strong {
+    font-size:  24px;
+}
+
+div.declaration ul {
+   margin-left: 20px;
+}
+
+div.declaration li {
+   margin-bottom: 10px;
+}
+
+div.pre_question_text ul {
+   margin-left: 20px;
+}
+
+
