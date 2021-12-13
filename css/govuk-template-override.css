@@ -353,3 +353,8 @@ a:hover {
 select {
     -webkit-appearance: menulist-button !important;
 }
+
+
+#nghr_job_category_chosen_chosen{
+  display:none;
+}
